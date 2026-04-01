@@ -1,5 +1,6 @@
 import './App.css'
 import Banner from './Components/Banner/Banner'
+import GetStarted from './Components/GetStarted/GetStarted'
 import NavBar from './Components/NavBar/NavBar'
 import Shop from './Components/Shop/Shop'
 import Stats from './Components/Stats/Stats'
@@ -18,7 +19,7 @@ function App() {
      <main>
       <Stats></Stats>
       <Shop toolsPromise={toolsPromise}></Shop>
-    
+     <GetStarted></GetStarted>
      </main>
     </>
   )

@@ -17,7 +17,7 @@ const Shop = ({toolsPromise}) => {
         </div>
         <div>
             {
-                btnState === 'products' ?<div className='grid md:grid-cols-2 lg:grid-cols-3 md:w-8/10 w-9/10 gap-6 mx-auto'>{tools.map(tool=><Products  tool={tool}></Products>)} </div> : <Cart></Cart>
+                btnState === 'products' ?<div className='grid md:grid-cols-2 lg:grid-cols-3 md:w-8/10 w-9/10 gap-6 mx-auto mb-14 md:mb-28'>{tools.map(tool=><Products  tool={tool}></Products>)} </div> : <Cart></Cart>
             }
         </div>
 
