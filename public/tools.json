@@ -1,0 +1,68 @@
+[
+  {
+    "id": "zenith-resume-ai",
+    "name": "Zenith Resume",
+    "description": "AI-powered resume builder designed to bypass ATS filters and land more interviews.",
+    "price": 15.00,
+    "period": "one-time",
+    "tag": "Trending",
+    "tagType": "trending",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF", "LinkedIn Import"],
+    "icon": "https://ui-avatars.com/api/?name=ZR&background=6366F1&color=fff&size=128"
+  },
+  {
+    "id": "nexus-code-pro",
+    "name": "Nexus Code Pro",
+    "description": "A high-performance cloud editor with real-time AI pair programming and debugging.",
+    "price": 29.00,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["AI Auto-complete", "Real-time Collaboration", "SSH Terminal", "Multi-language Support"],
+    "icon": "https://ui-avatars.com/api/?name=NC&background=4F46E5&color=fff&size=128"
+  },
+  {
+    "id": "vantage-seo-suite",
+    "name": "Vantage SEO",
+    "description": "The ultimate search engine toolkit for keyword tracking and competitor analysis.",
+    "price": 199.00,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Keyword Tracking", "Backlink Audit", "Competitor Analysis", "Weekly Reports"],
+    "icon": "https://ui-avatars.com/api/?name=VS&background=10B981&color=fff&size=128"
+  },
+  {
+    "id": "flux-design-system",
+    "name": "Flux Design",
+    "description": "A massive library of UI components and premium Figma templates for creators.",
+    "price": 89.00,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["UI Component Library", "Auto-layout Support", "Lifetime Updates", "Developer Handoff"],
+    "icon": "https://ui-avatars.com/api/?name=FD&background=EC4899&color=fff&size=128"
+  },
+  {
+    "id": "cipher-vault-pass",
+    "name": "Cipher Vault",
+    "description": "Military-grade encrypted password manager for high-security personal and team use.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "Secure",
+    "tagType": "secure",
+    "features": ["Zero-Knowledge Encryption", "Biometric Unlock", "Cross-device Sync", "Emergency Access"],
+    "icon": "https://ui-avatars.com/api/?name=CV&background=111827&color=fff&size=128"
+  },
+  {
+    "id": "aura-stock-4k",
+    "name": "Aura Stock",
+    "description": "Unlimited access to high-fidelity 4K stock footage and royalty-free music.",
+    "price": 250.00,
+    "period": "yearly",
+    "tag": "Premium",
+    "tagType": "premium",
+    "features": ["Unlimited 4K Downloads", "Commercial License", "Royalty-free Audio", "Daily New Content"],
+    "icon": "https://ui-avatars.com/api/?name=AS&background=8B5CF6&color=fff&size=128"
+  }
+]
