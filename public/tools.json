@@ -5,10 +5,10 @@
     "description": "AI-powered resume builder designed to bypass ATS filters and land more interviews.",
     "price": 15.00,
     "period": "one-time",
-    "tag": "Trending",
+    "tag": "Best Seller",
     "tagType": "trending",
     "features": ["100+ templates", "ATS optimization", "Export to PDF", "LinkedIn Import"],
-    "icon": "https://ui-avatars.com/api/?name=ZR&background=6366F1&color=fff&size=128"
+    "icon": "../src/assets/products/portfolio.png"
   },
   {
     "id": "nexus-code-pro",
@@ -19,7 +19,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["AI Auto-complete", "Real-time Collaboration", "SSH Terminal", "Multi-language Support"],
-    "icon": "https://ui-avatars.com/api/?name=NC&background=4F46E5&color=fff&size=128"
+    "icon": "../src/assets/products/writing_2327400 1.png"
   },
   {
     "id": "vantage-seo-suite",
@@ -27,10 +27,10 @@
     "description": "The ultimate search engine toolkit for keyword tracking and competitor analysis.",
     "price": 199.00,
     "period": "yearly",
-    "tag": "Best Seller",
+    "tag": "New",
     "tagType": "best-seller",
     "features": ["Keyword Tracking", "Backlink Audit", "Competitor Analysis", "Weekly Reports"],
-    "icon": "https://ui-avatars.com/api/?name=VS&background=10B981&color=fff&size=128"
+    "icon": "../src/assets/products/social-media.png"
   },
   {
     "id": "flux-design-system",
@@ -38,10 +38,10 @@
     "description": "A massive library of UI components and premium Figma templates for creators.",
     "price": 89.00,
     "period": "one-time",
-    "tag": "New",
+    "tag": "Popular",
     "tagType": "new",
     "features": ["UI Component Library", "Auto-layout Support", "Lifetime Updates", "Developer Handoff"],
-    "icon": "https://ui-avatars.com/api/?name=FD&background=EC4899&color=fff&size=128"
+    "icon": "../src/assets/products/design-tool.png"
   },
   {
     "id": "cipher-vault-pass",
@@ -49,10 +49,10 @@
     "description": "Military-grade encrypted password manager for high-security personal and team use.",
     "price": 4.99,
     "period": "monthly",
-    "tag": "Secure",
+    "tag": "New",
     "tagType": "secure",
     "features": ["Zero-Knowledge Encryption", "Biometric Unlock", "Cross-device Sync", "Emergency Access"],
-    "icon": "https://ui-avatars.com/api/?name=CV&background=111827&color=fff&size=128"
+    "icon": "../src/assets/products/operation.png"
   },
   {
     "id": "aura-stock-4k",
@@ -60,9 +60,9 @@
     "description": "Unlimited access to high-fidelity 4K stock footage and royalty-free music.",
     "price": 250.00,
     "period": "yearly",
-    "tag": "Premium",
+    "tag": "Best Seller",
     "tagType": "premium",
     "features": ["Unlimited 4K Downloads", "Commercial License", "Royalty-free Audio", "Daily New Content"],
-    "icon": "https://ui-avatars.com/api/?name=AS&background=8B5CF6&color=fff&size=128"
+    "icon": "../src/assets/products/shopping-cart.png"
   }
 ]
