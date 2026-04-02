@@ -8,7 +8,7 @@
     "tag": "Best Seller",
     "tagType": "trending",
     "features": ["100+ templates", "ATS optimization", "Export to PDF", "LinkedIn Import"],
-    "icon": "../src/assets/products/portfolio.png"
+    "icon": "/products/portfolio.png"
   },
   {
     "id": "nexus-code-pro",
@@ -19,7 +19,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["AI Auto-complete", "Real-time Collaboration", "SSH Terminal", "Multi-language Support"],
-    "icon": "../src/assets/products/writing_2327400 1.png"
+    "icon": "/products/writing_2327400 1.png"
   },
   {
     "id": "vantage-seo-suite",
@@ -30,7 +30,7 @@
     "tag": "New",
     "tagType": "best-seller",
     "features": ["Keyword Tracking", "Backlink Audit", "Competitor Analysis", "Weekly Reports"],
-    "icon": "../src/assets/products/social-media.png"
+    "icon": "/products/social-media.png"
   },
   {
     "id": "flux-design-system",
@@ -41,7 +41,7 @@
     "tag": "Popular",
     "tagType": "new",
     "features": ["UI Component Library", "Auto-layout Support", "Lifetime Updates", "Developer Handoff"],
-    "icon": "../src/assets/products/design-tool.png"
+    "icon": "/products/design-tool.png"
   },
   {
     "id": "cipher-vault-pass",
@@ -52,7 +52,7 @@
     "tag": "New",
     "tagType": "secure",
     "features": ["Zero-Knowledge Encryption", "Biometric Unlock", "Cross-device Sync", "Emergency Access"],
-    "icon": "../src/assets/products/operation.png"
+    "icon": "/products/operation.png"
   },
   {
     "id": "aura-stock-4k",
@@ -63,6 +63,6 @@
     "tag": "Best Seller",
     "tagType": "premium",
     "features": ["Unlimited 4K Downloads", "Commercial License", "Royalty-free Audio", "Daily New Content"],
-    "icon": "../src/assets/products/shopping-cart.png"
+    "icon": "/products/shopping-cart.png"
   }
 ]
