@@ -2,7 +2,7 @@ import React, { use, useState } from 'react';
 import Products from '../Products/Products';
 import Cart from '../Cart/Cart';
 
-const Shop = ({toolsPromise}) => {
+const Shop = ({toolsPromise,cartProduct,setCartProduct}) => {
     const tools = use(toolsPromise);
     const [btnState,setBtnState]= useState('products')
     return (
@@ -12,12 +12,12 @@ const Shop = ({toolsPromise}) => {
             <p className='gray-color text-center'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity. </p>
             <div className='bg-white rounded-full p-0.5 drop-shadow-lg w-fit my-5 flex items-center mx-auto'>
                 <button onClick={()=>setBtnState('products')} className={`${btnState === 'products' ? 'btn gradient py-3.5 px-6 font-bold text-white rounded-full' : 'btn bg-white border-none w-fit rounded-full shadow-none py-0.5 px-6 font-medium text-black' }`}>Products</button>
-                <button onClick={()=>setBtnState('cart')} className={`${btnState === 'cart' ? 'btn gradient py-3.5 px-6 font-bold text-white rounded-full' : 'btn bg-white border-none w-fit rounded-full shadow-none py-0.5 px-6 font-medium text-black' }`}>Cart(2)</button>
+                <button onClick={()=>setBtnState('cart')} className={`${btnState === 'cart' ? 'btn gradient py-3.5 px-6 font-bold text-white rounded-full' : 'btn bg-white border-none w-fit rounded-full shadow-none py-0.5 px-6 font-medium text-black' }`}>Cart({cartProduct.length})</button>
             </div>
         </div>
         <div>
             {
-                btnState === 'products' ?<div className='grid md:grid-cols-2 lg:grid-cols-3 md:w-8/10 w-9/10 gap-6 mx-auto mb-14 md:mb-28'>{tools.map(tool=><Products  tool={tool}></Products>)} </div> : <Cart></Cart>
+                btnState === 'products' ?<div className='grid md:grid-cols-2 lg:grid-cols-3 md:w-8/10 w-9/10 gap-6 mx-auto mb-14 md:mb-28'>{tools.map(tool=><Products  tool={tool} cartProduct={cartProduct} setCartProduct={setCartProduct}></Products>)} </div> : <Cart cartProduct={cartProduct} setCartProduct={setCartProduct}></Cart>
             }
         </div>
 

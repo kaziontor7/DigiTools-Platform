@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './App.css'
 import Banner from './Components/Banner/Banner'
 import Footer from './Components/Footer/Footer'
@@ -11,17 +12,18 @@ import Stats from './Components/Stats/Stats'
 const toolsPromise = fetch('tools.json').then(res=>res.json())
 
 function App() {
+  const [cartProduct,setCartProduct]=useState([])
   
   return (
     <>
      <header>
-      <NavBar></NavBar>
+      <NavBar cartProduct={cartProduct}></NavBar>
 
       <Banner></Banner>
      </header>
      <main>
       <Stats></Stats>
-      <Shop toolsPromise={toolsPromise}></Shop>
+      <Shop toolsPromise={toolsPromise} cartProduct={cartProduct} setCartProduct={setCartProduct}></Shop>
      <GetStarted></GetStarted>
      <Pricing></Pricing>
      <Ready></Ready>

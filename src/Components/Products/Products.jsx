@@ -1,6 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const Products = ({tool}) => {
+const Products = ({tool,cartProduct,setCartProduct}) => {
+  const [btn,setBtn] = useState(false)
+  const handleBtn = ()=>{
+    setBtn(true)
+    setCartProduct([...cartProduct,tool])
+
+  }
     return (
         <div className=''>
             <div className="card  bg-base-100 shadow-sm h-full rounded-2xl">
@@ -28,7 +34,7 @@ const Products = ({tool}) => {
       
     </ul>
     <div className="mt-4">
-      <button className="btn gradient btn-block font-bold text-white text-base rounded-full">Buy Now</button>
+      <button onClick={handleBtn} className={`btn  btn-block font-bold text-white text-base rounded-full ${btn? 'btn-success' : 'gradient'}`}>{btn? 'Added to cart' : 'Buy Now'}</button>
     </div>
   </div>
 </div>
