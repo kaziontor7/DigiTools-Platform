@@ -12,7 +12,7 @@ const Banner = () => {
                 <p className='text-gradient'>New: AI-Powered Tools Available</p>
             </span>
             <h1 className='md:text-7xl text-4xl font-extrabold textColor'>Supercharge Your Digital Workflow</h1>
-            <p className='text-lg text-[##627382] '>Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today
+            <p className='text-lg gray-color '>Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today
             Explore Products</p>
             <div className='flex items-center gap-3'>
                 <button className="btn gradient text-base font-bold text-white rounded-[10000px] py-5">Explore Products</button>

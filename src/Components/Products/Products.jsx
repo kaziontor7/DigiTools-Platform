@@ -3,7 +3,7 @@ import React from 'react';
 const Products = ({tool}) => {
     return (
         <div className=''>
-            <div className="card  bg-base-100 shadow-sm h-full">
+            <div className="card  bg-base-100 shadow-sm h-full rounded-2xl">
   <div className="card-body">
     <div className='flex justify-between'>
         <div className='rounded-[50%] border border-gray-200 w-15 h-15'>
