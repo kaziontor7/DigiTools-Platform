@@ -1,5 +1,6 @@
 import './App.css'
 import Banner from './Components/Banner/Banner'
+import Footer from './Components/Footer/Footer'
 import GetStarted from './Components/GetStarted/GetStarted'
 import NavBar from './Components/NavBar/NavBar'
 import Pricing from './Components/Pricing/Pricing'
@@ -25,6 +26,9 @@ function App() {
      <Pricing></Pricing>
      <Ready></Ready>
      </main>
+     <footer>
+      <Footer></Footer>
+     </footer>
     </>
   )
 }

@@ -14,7 +14,7 @@ body{
 }
 
 .textColor{
-  color: #101727FF;
+  color: #101727;
 }
 
 .text-gradient {
@@ -26,4 +26,8 @@ body{
 
 .gray-color{
   color: #627382;
+}
+
+.textCol{
+  color: #101727FF;
 }

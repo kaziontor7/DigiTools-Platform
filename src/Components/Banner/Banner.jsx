@@ -11,7 +11,7 @@ const Banner = () => {
                 <img src={Circle} alt="" />
                 <p className='text-gradient'>New: AI-Powered Tools Available</p>
             </span>
-            <h1 className='md:text-7xl text-4xl font-extrabold textColor'>Supercharge Your Digital Workflow</h1>
+            <h1 className='md:text-7xl text-4xl font-extrabold textCol'>Supercharge Your Digital Workflow</h1>
             <p className='text-lg gray-color '>Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today
             Explore Products</p>
             <div className='flex items-center gap-3'>
