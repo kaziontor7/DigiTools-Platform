@@ -15,7 +15,7 @@ const GetStarted = () => {
                   <div className=' p-5 bg-white rounded-2xl shadow'>
                     <div className='flex justify-between'>
                        <span></span>
-                       <span className='gradient text-white p-2.5 rounded-[50%] text-sm font-bold'>01</span>
+                       <span className='gradient text-white w-10 h-10 flex items-center justify-center rounded-full text-sm font-bold '>01</span>
                     </div>
                     <div className='bg-purple-200 rounded-[50%] w-fit mx-auto mt-6'>
                    <img className='p-5' src={Profile} alt="" />
@@ -26,7 +26,7 @@ const GetStarted = () => {
                 <div className=' p-5 bg-white rounded-2xl shadow'>
                     <div className='flex justify-between'>
                        <span></span>
-                       <span className='gradient text-white p-2.5 rounded-[50%] text-sm font-bold'>02</span>
+                       <span className='gradient text-white w-10 h-10 flex items-center justify-center rounded-full text-sm font-bold'>02</span>
                     </div>
                     <div className='bg-purple-200 rounded-[50%] w-fit mx-auto mt-6'>
                    <img className='p-5' src={Package} alt="" />
@@ -37,7 +37,7 @@ const GetStarted = () => {
                 <div className=' p-5 bg-white rounded-2xl shadow'>
                     <div className='flex justify-between'>
                        <span></span>
-                       <span className='gradient text-white p-2.5 rounded-[50%] text-sm font-bold'>03</span>
+                       <span className='gradient text-white w-10 h-10 flex items-center justify-center rounded-full text-sm font-bold'>03</span>
                     </div>
                     <div className='bg-purple-200 rounded-[50%] w-fit mx-auto mt-6'>
                    <img className='p-5' src={Rocket} alt="" />

@@ -1,12 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { toast } from 'react-toastify';
 
 const Products = ({tool,cartProduct,setCartProduct}) => {
-  const [btn,setBtn] = useState(false)
+  
+  const isAdded = cartProduct.find(item=>item.name===tool.name)
   const handleBtn = ()=>{
-    setBtn(true)
+    if(isAdded){toast.warn('Item already added to the cart')}
+    else{
     setCartProduct([...cartProduct,tool])
+    toast.success('Item added to the cart')
+    }
+    
 
   }
+  
     return (
         <div className=''>
             <div className="card  bg-base-100 shadow-sm h-full rounded-2xl">
@@ -27,14 +34,14 @@ const Products = ({tool,cartProduct,setCartProduct}) => {
       <span className="text-base gray-color"><span className='textColor font-bold text-2xl'>${tool.price}</span>/{tool.period}</span>
     </div>
     <ul className="mt-4 flex flex-col gap-2 text-base font-medium  gray-color grow">
-      {tool.features.map(feature=><li>
+      {tool.features.map((feature,index)=><li key={index}>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
         <span className=''>{feature}</span>
       </li>)}
       
     </ul>
     <div className="mt-4">
-      <button onClick={handleBtn} className={`btn  btn-block font-bold text-white text-base rounded-full ${btn? 'btn-success' : 'gradient'}`}>{btn? 'Added to cart' : 'Buy Now'}</button>
+      <button onClick={handleBtn} className={`btn  btn-block font-bold text-white text-base rounded-full ${isAdded? 'btn-success' : 'gradient'}`}>{isAdded? 'Added to cart' : 'Buy Now'}</button>
     </div>
   </div>
 </div>
