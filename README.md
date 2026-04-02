@@ -1,16 +1,16 @@
-# React + Vite
+# DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 Description
+DigiTools Platform is a modern, fully responsive web application designed to help users supercharge their digital workflows. It allows users to browse a curated list of digital products, view detailed features, and easily add them to an interactive shopping cart. The platform features a clean, user-friendly interface with real-time cart updates and notifications.
 
-Currently, two official plugins are available:
+## 🛠️ Technologies Used
+* **React.js** - For building the interactive user interface.
+* **Tailwind CSS & DaisyUI** - For rapid, responsive, and beautiful styling.
+* **JavaScript (ES6+)** - For dynamic state management and logic.
+* **React-Toastify** - For elegant, real-time alert notifications.
+* **Vite** - As the fast build tool and development server.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Top 3 Features
+1. **Interactive Shopping Cart:** Users can seamlessly add products, view the total item count in the navigation bar, remove specific items, and proceed to checkout—which clears the cart.
+2. **Smart "Add to Cart" Logic:** Prevents duplicate items from being added to the cart and visually updates the product button to say "Added to cart" once selected.
+3. **Responsive & Modern Design:** Fully optimized to look great on mobile phones, tablets, and desktop computers using standard responsive practices.
