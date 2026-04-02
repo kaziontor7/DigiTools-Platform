@@ -2,6 +2,7 @@ import './App.css'
 import Banner from './Components/Banner/Banner'
 import GetStarted from './Components/GetStarted/GetStarted'
 import NavBar from './Components/NavBar/NavBar'
+import Pricing from './Components/Pricing/Pricing'
 import Shop from './Components/Shop/Shop'
 import Stats from './Components/Stats/Stats'
 
@@ -20,6 +21,7 @@ function App() {
       <Stats></Stats>
       <Shop toolsPromise={toolsPromise}></Shop>
      <GetStarted></GetStarted>
+     <Pricing></Pricing>
      </main>
     </>
   )
